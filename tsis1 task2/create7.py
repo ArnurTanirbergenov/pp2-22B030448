@@ -1,0 +1,7 @@
+a = int(2.1)
+b = int('9')
+c = float(3)
+d = float('6')
+e = str('74')
+f = str('helloo')
+print(a, b, c, d, e, f)
