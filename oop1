@@ -4,3 +4,23 @@ public class Welcome1 {
         System.out.println("+-----+\n|Arnur| \n+-----+");
     }
 }
+
+
+
+import java.util.Scanner;
+
+public class Secondtask {
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner(System.in);
+        int number1;
+        int number2;
+        int sum;
+        System.out.print("Enter first int");
+        number1 = input.nextInt();
+        System.out.print("Enter second int");
+        number2 = input.nextInt();
+        sum = number1 + number2;
+        System.out.printf("Sum is %d\n", sum);
+    }
+}
